@@ -1,0 +1,204 @@
+@import "compass/css3";
+
+@import "compass/css3";
+@import "compass/reset";
+
+@media (max-width: 600px) {
+  * {
+    font-size: 2vw;
+    margin: 2px;
+  }
+}
+
+body {
+  font-size: 16px;
+}
+
+/* Media query for mobile phones */
+@media only screen and (max-width: 540px) {
+  body {
+    font-size: 80px; /* Set minimum font size for mobile phones */
+    max-width: 100%; /* Set maximum width for text on mobile phones */
+  }
+}
+
+.footer {
+  padding: 5px;
+  text-align: center;
+  background-color: darkblue;
+  color: white;
+  font-size: 15px;
+  font-family: helvetica;
+}
+
+.header {
+  padding: 15px;
+  text-align: left;
+  background-color: darkblue;
+  color: white;
+  font-size: 25px;
+  font-family: helvetica;
+  width: 100%;
+}
+
+.logo {
+  max-width: 37.5px;
+  max-height: 37.5px;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: whitesmoke;
+  font-size: 45px;
+  font-family: helvetica;
+}
+
+.top {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 30px; /* Adjust the font size as needed */
+  font-family: helvetica;
+}
+
+.title {
+  padding: 5px;
+  text-align: center;
+  background-color: cyan;
+  font-family: helvetica;
+}
+
+body {
+  background-color: #d3e6f9;
+}
+
+.center {
+  display: block;
+  margin: 0 auto;
+  max-width: 60%;
+  max-height: 60%;
+}
+
+.image {
+  width: 100%;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .center-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .center-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    height: 40%;
+  }
+}
+
+.navigationbar {
+  a:link {
+    color: red;
+  }
+  a:visited {
+    color: lime;
+  }
+  a:hover {
+    color: yellow;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  h2 {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  h3 {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  p {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  h2 {
+    padding-left: 210px;
+    padding-right: 400px;
+  }
+
+  h3 {
+    padding-left: 225px;
+    padding-right: 400px;
+  }
+
+  p {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  p {
+    padding-left: 240px;
+    padding-right: 400px;
+  }
+}
+
+.home {
+  margin: 31px;
+}
+
+.centerest {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+}
